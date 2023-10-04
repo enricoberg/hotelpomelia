@@ -1,0 +1,96 @@
+/* DEFAULT COLOR #9BC597 */
+*{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0px;
+    padding:0px;
+    color: #939393;
+
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.logobar, nav, footer{
+    width: 100%;
+    background-color: #faf5e0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#biglogo{
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.navoption{
+    min-height: 35px;
+    
+    flex-basis: 1;
+    text-align: center;
+}
+
+footer{
+    min-height: 150px;
+    position:relative;
+    margin-top: auto;
+    
+}
+ footer>p{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+ }
+ #bkgimg1{
+    background-image: url("../img/hotelpool.jpg");
+ }
+ #bkgimg2{
+    background-image: url("../img/landscape.jpg");
+ }
+ #bkgimg3{
+    background-image: url("../img/hotelroom.jpg");
+ }
+ #bkgimg4{
+    background-image: url("../img/lobby.jpg");
+ }
+ .container{
+    width: 100%;
+    min-height: 70vh;
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-size: cover;
+ }
+ .fa {
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(155, 196, 152);
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+ .textbox{
+    width: 70%;
+    background: rgba(0,0,0,0.15);
+    border-radius: 15px;
+    
+
+
+ }
+ .textbox *{
+    
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .textbox>p{
+    line-height: 25px;
+ }
